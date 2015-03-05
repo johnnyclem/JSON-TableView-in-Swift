@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF4F653D1AA7FE9E00F85C70 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F653C1AA7FE9E00F85C70 /* Repository.swift */; };
+		EFC9C7361AA7BEB200070B3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC9C7351AA7BEB200070B3C /* AppDelegate.swift */; };
+		EFC9C7381AA7BEB200070B3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC9C7371AA7BEB200070B3C /* ViewController.swift */; };
+		EFC9C73B1AA7BEB200070B3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC9C7391AA7BEB200070B3C /* Main.storyboard */; };
+		EFC9C73D1AA7BEB200070B3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC9C73C1AA7BEB200070B3C /* Images.xcassets */; };
+		EFC9C7401AA7BEB200070B3C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFC9C73E1AA7BEB200070B3C /* LaunchScreen.xib */; };
+		EFC9C74C1AA7BEB300070B3C /* JSON_TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC9C74B1AA7BEB300070B3C /* JSON_TableViewTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFC9C7461AA7BEB300070B3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFC9C7281AA7BEB200070B3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFC9C72F1AA7BEB200070B3C;
+			remoteInfo = "JSON TableView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF4F653C1AA7FE9E00F85C70 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		EFC9C7301AA7BEB200070B3C /* JSON TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSON TableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC9C7341AA7BEB200070B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC9C7351AA7BEB200070B3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFC9C7371AA7BEB200070B3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFC9C73A1AA7BEB200070B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFC9C73C1AA7BEB200070B3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFC9C73F1AA7BEB200070B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EFC9C7451AA7BEB300070B3C /* JSON TableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JSON TableViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC9C74A1AA7BEB300070B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC9C74B1AA7BEB300070B3C /* JSON_TableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON_TableViewTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFC9C72D1AA7BEB200070B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC9C7421AA7BEB300070B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFC9C7271AA7BEB200070B3C = {
+			isa = PBXGroup;
+			children = (
+				EFC9C7321AA7BEB200070B3C /* JSON TableView */,
+				EFC9C7481AA7BEB300070B3C /* JSON TableViewTests */,
+				EFC9C7311AA7BEB200070B3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFC9C7311AA7BEB200070B3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFC9C7301AA7BEB200070B3C /* JSON TableView.app */,
+				EFC9C7451AA7BEB300070B3C /* JSON TableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFC9C7321AA7BEB200070B3C /* JSON TableView */ = {
+			isa = PBXGroup;
+			children = (
+				EFC9C7351AA7BEB200070B3C /* AppDelegate.swift */,
+				EFC9C7371AA7BEB200070B3C /* ViewController.swift */,
+				EFC9C7391AA7BEB200070B3C /* Main.storyboard */,
+				EFC9C73C1AA7BEB200070B3C /* Images.xcassets */,
+				EFC9C73E1AA7BEB200070B3C /* LaunchScreen.xib */,
+				EFC9C7331AA7BEB200070B3C /* Supporting Files */,
+				EF4F653C1AA7FE9E00F85C70 /* Repository.swift */,
+			);
+			path = "JSON TableView";
+			sourceTree = "<group>";
+		};
+		EFC9C7331AA7BEB200070B3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFC9C7341AA7BEB200070B3C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFC9C7481AA7BEB300070B3C /* JSON TableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFC9C74B1AA7BEB300070B3C /* JSON_TableViewTests.swift */,
+				EFC9C7491AA7BEB300070B3C /* Supporting Files */,
+			);
+			path = "JSON TableViewTests";
+			sourceTree = "<group>";
+		};
+		EFC9C7491AA7BEB300070B3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFC9C74A1AA7BEB300070B3C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFC9C72F1AA7BEB200070B3C /* JSON TableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC9C74F1AA7BEB300070B3C /* Build configuration list for PBXNativeTarget "JSON TableView" */;
+			buildPhases = (
+				EFC9C72C1AA7BEB200070B3C /* Sources */,
+				EFC9C72D1AA7BEB200070B3C /* Frameworks */,
+				EFC9C72E1AA7BEB200070B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JSON TableView";
+			productName = "JSON TableView";
+			productReference = EFC9C7301AA7BEB200070B3C /* JSON TableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFC9C7441AA7BEB300070B3C /* JSON TableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC9C7521AA7BEB300070B3C /* Build configuration list for PBXNativeTarget "JSON TableViewTests" */;
+			buildPhases = (
+				EFC9C7411AA7BEB300070B3C /* Sources */,
+				EFC9C7421AA7BEB300070B3C /* Frameworks */,
+				EFC9C7431AA7BEB300070B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFC9C7471AA7BEB300070B3C /* PBXTargetDependency */,
+			);
+			name = "JSON TableViewTests";
+			productName = "JSON TableViewTests";
+			productReference = EFC9C7451AA7BEB300070B3C /* JSON TableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFC9C7281AA7BEB200070B3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Learn Swift";
+				TargetAttributes = {
+					EFC9C72F1AA7BEB200070B3C = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					EFC9C7441AA7BEB300070B3C = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = EFC9C72F1AA7BEB200070B3C;
+					};
+				};
+			};
+			buildConfigurationList = EFC9C72B1AA7BEB200070B3C /* Build configuration list for PBXProject "JSON TableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFC9C7271AA7BEB200070B3C;
+			productRefGroup = EFC9C7311AA7BEB200070B3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFC9C72F1AA7BEB200070B3C /* JSON TableView */,
+				EFC9C7441AA7BEB300070B3C /* JSON TableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFC9C72E1AA7BEB200070B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC9C73B1AA7BEB200070B3C /* Main.storyboard in Resources */,
+				EFC9C7401AA7BEB200070B3C /* LaunchScreen.xib in Resources */,
+				EFC9C73D1AA7BEB200070B3C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC9C7431AA7BEB300070B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFC9C72C1AA7BEB200070B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC9C7381AA7BEB200070B3C /* ViewController.swift in Sources */,
+				EFC9C7361AA7BEB200070B3C /* AppDelegate.swift in Sources */,
+				EF4F653D1AA7FE9E00F85C70 /* Repository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC9C7411AA7BEB300070B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC9C74C1AA7BEB300070B3C /* JSON_TableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFC9C7471AA7BEB300070B3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFC9C72F1AA7BEB200070B3C /* JSON TableView */;
+			targetProxy = EFC9C7461AA7BEB300070B3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFC9C7391AA7BEB200070B3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFC9C73A1AA7BEB200070B3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFC9C73E1AA7BEB200070B3C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFC9C73F1AA7BEB200070B3C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFC9C74D1AA7BEB300070B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFC9C74E1AA7BEB300070B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFC9C7501AA7BEB300070B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JSON TableView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFC9C7511AA7BEB300070B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JSON TableView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFC9C7531AA7BEB300070B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JSON TableViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSON TableView.app/JSON TableView";
+			};
+			name = Debug;
+		};
+		EFC9C7541AA7BEB300070B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JSON TableViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSON TableView.app/JSON TableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFC9C72B1AA7BEB200070B3C /* Build configuration list for PBXProject "JSON TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC9C74D1AA7BEB300070B3C /* Debug */,
+				EFC9C74E1AA7BEB300070B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFC9C74F1AA7BEB300070B3C /* Build configuration list for PBXNativeTarget "JSON TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC9C7501AA7BEB300070B3C /* Debug */,
+				EFC9C7511AA7BEB300070B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFC9C7521AA7BEB300070B3C /* Build configuration list for PBXNativeTarget "JSON TableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC9C7531AA7BEB300070B3C /* Debug */,
+				EFC9C7541AA7BEB300070B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFC9C7281AA7BEB200070B3C /* Project object */;
+}
